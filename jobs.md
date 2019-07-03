@@ -1,0 +1,71 @@
+---
+title: Vayu | Jobs
+layout: default
+---
+{%if site.jobs.size == 0%}
+  <div class="content-wrap">
+    <div class="main-features">
+      <div class="wrapper">
+        <div class="row-fluid">
+          <div class="span12">
+	    <p class="text-center">Sorry, there are no current positions listed but you can always apply to <a href="mailto:hi@vayu.com.au">hi@vayu.com.au</a> anytime</p>
+          </div>
+        </div>	  
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% for post in site.jobs %}
+  <div class="content-wrap">
+    <div class="main-features">
+      <div class="wrapper">
+        <div class="row-fluid">
+          <div class="span12">
+            <h2 style="font-size: 30px;line-height: 1.6;text-align:left;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <div style="padding-bottom: 20px">{{ post.date | date: '%B %d, %Y' }}</div>
+
+            <div class="excerpt" style="font-size: 18px;line-height: 1.6;">
+	      {{ post.excerpt | strip_html | truncatewords:75 }}
+            </div>
+           
+          </div>
+        </div>	  
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+
+
+<div class="content-wrap">
+
+  <div class="main-features">
+    <div class="wrapper">
+      <h1 class="main-feat-title" id="features">
+        We specialise in <span class="bold">bespoke software</span>
+      </h1>
+
+      <h2 class="main-feat-p">We can build the ideas in your head and make them a reality</h2>
+
+      <div class="box first">
+        <div class="row-fluid">
+          <div class="span6">
+            <H4>Building better applications</H4>
+
+            <p>Exceptional development on the web is done with cutting-edge technologies like Ruby, React JS, Vue JS and other modern frameworks. At Vayu, we're polyglots - we use the the latest technology to rapidly bring your projects to fruition.   We also understand how to build at scale with containers & Kubernetes in our toolbelt.</p>
+            <p>We're always discovering and learning.  Naturally curious, we stay on top of trends and new technologies to help our clients reach future-facing solutions.</p>
+          </div>
+
+          <div class="span6 imagelink1 zoomlink ">
+            <a href="/assets/images/frontend/mockup/main1.png" data-gal="prettyPhoto[gallery1]">
+              <span class="roll"></span>
+	      <img src="/assets/images/frontend/mockup/main1.png" rel="prettyPhoto">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
