@@ -6,6 +6,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:title" content="{{page.title}}" />
+    <meta property="og:url" content="https://www.vayu.com.au{{page.url}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{page.cover_image | default: 'https://www.vayu.com.au/assets/images/frontend/mockup/slide1.png'}}" />
+    <meta property="og:description" content= "{{page.title}} - {{page.excerpt}}" />
+    <meta name="twitter:widgets:theme" content="light">
+
 
     <link rel="stylesheet" type="text/css" href="/assets/css/frontend/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/frontend/bootstrap-responsive.min.css" />
