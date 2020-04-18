@@ -2,7 +2,7 @@
 `rm builds-app.log`
 app = ENV['APP']
 commit = ENV['BUILDKITE_COMMIT']
-branch = ENV['BUILDKITE_BRANCH']
+branch = ENV['BUILDKITE_BRANCH'].gsub('origin/', '')
 #sha = commit[commit.length-8, commit.length]
 sha = commit
 puts "app: #{ app }"
@@ -14,7 +14,6 @@ cmd_str = "gcloud builds list >> builds.log"
 contents = File.read('./builds.log')
 contents.split("\n").each do |line|
   if line.include? sha
-    puts "Found"
     `echo "#{ line }" >> builds-app.log`
   end
 end
