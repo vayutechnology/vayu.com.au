@@ -3,7 +3,7 @@ apiVersion: "apps/v1"
 kind: "Deployment"
 metadata:
   name: "vayu-com-au"
-  namespace: "vayu-com-au"
+  namespace: "www-vayu-com-au"
   labels:
     app: "vayu-com-au"
 spec: 
@@ -39,7 +39,7 @@ apiVersion: "autoscaling/v1"
 kind: "HorizontalPodAutoscaler"
 metadata:
   name: "vayu-com-au-hpa"
-  namespace: "vayu-com-au"
+  namespace: "www-vayu-com-au"
   labels:
     app: "vayu-com-au"
 spec:
@@ -63,7 +63,7 @@ apiVersion: "v1"
 kind: "Service"
 metadata:
   name: "vayu-com-au-service"
-  namespace: "vayu-com-au"
+  namespace: "www-vayu-com-au"
   labels:
     app: "vayu-com-au"
 spec:
