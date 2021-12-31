@@ -10,6 +10,5 @@ images:
   - 'gcr.io/$PROJECT_ID/vayu.com.au:$COMMIT_SHA'
   - 'gcr.io/$PROJECT_ID/vayu.com.au:latest'
 tags:
-  - "cloudbuild"
-
+  - '$COMMIT_SHA'
 
