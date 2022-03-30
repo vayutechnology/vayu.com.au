@@ -16,8 +16,8 @@ bundle install
 bundle exec jekyll serve
 http://localhost:4000
 ```
-
-
 ## Deployment
 
 * Cloud run: vayu-com-au
+
+* Deployed on main branch only to Cloud Run
