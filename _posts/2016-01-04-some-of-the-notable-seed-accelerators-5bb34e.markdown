@@ -4,6 +4,7 @@ title:  "Some of the most notable seed accelerators"
 date:   "2016-01-04 10:25:07.279863"
 excerpt: With a community over 1600 founders and an added value of over $30 billion, <a href="http://www.ycombinator.com">Y combinator</a> has become one of the biggest and the most commercially successful startup seed accelerator. Paul Graham, Jessica Livingston, Trevor Blackwell and Robert Morris initially founded it in 2005 and since then it has funded over 800 startups.&nbsp;
 categories: blog
+tags: [startups, accelerators]
 ---
 <p><span style="font-size:20px;"><strong><u>Y combinator</u></strong></span></p>
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Ruby on Rails 6.0 Released"
 date:   "2019-09-04 08:49:20.449038"
 categories: blog
+tags: [ruby, rails]
 excerpt: "Last month brought the release of Ruby on Rails 6.0.  Looking back on the past 12 months of Ruby / Ruby on Rails development it's clear that DHH was right in saying that 'Ruby isn't dying, it's maturing'"
 cover_image: "https://www.vayu.com.au/assets/images/blog/yay-rails.png"
 ---

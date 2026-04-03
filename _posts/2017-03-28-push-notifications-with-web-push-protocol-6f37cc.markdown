@@ -3,6 +3,7 @@ layout: post
 title:  "Push Notifications with Web Push Protocol"
 date:   "2017-03-28 08:49:20.449038"
 categories: blog
+tags: [web, javascript, push-notifications]
 excerpt: "Push notifications are a great way to interact with the users of your application. However, a major roadblock on integrating push notification to your application is the requirement of signing up and setting up push service server for different browsers that support different protocols for pushing notifications from your application to the client&rsquo;s browser."
 ---
 

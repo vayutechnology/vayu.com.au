@@ -15,20 +15,44 @@
 # in the templates via {{ site.myvariable }}.
 title: Vayu Technology
 email: hi@vayu.com.au
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Vayu Technology builds small, focused software products and writes
+  about the craft of engineering.
+author: Vayu Technology
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.vayu.com.au"
 twitter_username: vayutech
 # github_username:  vayu
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  tags:
+    enabled: true
+    layouts:
+      - autopage_tags.html
+    title: "Tagged: :tag"
+    permalink: "/tags/:tag/"
+  categories:
+    enabled: true
+    layouts:
+      - autopage_category.html
+    title: ":cat"
+    permalink: "/category/:cat/"
+  collections:
+    enabled: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

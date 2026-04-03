@@ -4,6 +4,7 @@ title:  "Understanding Native and Hybrid apps"
 date:   "2016-01-05 09:59:40.577115"
 excerpt: "Known for its sleek and simple design, iOS uses multi-touch gestures, which is based on the concept of direct manipulation Interface. Its control elements consist of switches, buttons and sliders. Moreover, interaction with the operating system includes gestures such as swipe, tap, and pinch all of which have specific definitions in the context of the iOS and its multi-touch interface."
 categories: blog
+tags: [mobile, ios, android]
 ---
 <h2>Native</h2>
 
