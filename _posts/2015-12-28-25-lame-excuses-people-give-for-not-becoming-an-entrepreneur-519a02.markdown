@@ -4,6 +4,7 @@ title:  "25 Lame Excuses People Give for Not Becoming an Entrepreneur"
 date:   2015-12-28 05:26:09.742623
 excerpt: "Jayson Demers via Entrepreneur.com wrote a lovely article this year about what holds people back from becoming an entrepreneur. This is a rebuttal from someone who has been banging their head against startups for about 5 years now."
 categories: blog
+tags: [entrepreneurship, startups]
 ---
 
 Jayson Demers via <a href="http://www.entrepreneur.com/article/251998">Entrepreneur.com</a> wrote a lovely article this year about what holds people back from becoming an entrepreneur. This is a rebuttal from someone who has been banging their head against startups for about 5 years now.

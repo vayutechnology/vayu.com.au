@@ -3,6 +3,7 @@ layout: post
 title:  "RubyNepal December Meetup"
 date:   2015-12-21 08:23:37.990316
 categories: blog
+tags: [ruby, community, nepal]
 ---
 
 RubyNepal organized its final meetup for 2015 on 20<sup>th</sup>&nbsp;December, 2015 at Innovation Hub, FNCCI Building, Teku, which had been on hold for few months due to fuel crisis and all the crazy things going on in Kathmandu since past several months.

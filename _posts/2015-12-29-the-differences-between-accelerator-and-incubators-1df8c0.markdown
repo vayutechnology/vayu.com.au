@@ -3,6 +3,7 @@ layout: post
 title:  "The differences between accelerator and incubators"
 date:   2015-12-29 10:19:07.905617
 categories: blog
+tags: [startups, accelerators, incubators]
 excerpt: "<p>Accelerators and incubators offer various opportunities for early startups.&nbsp; Deciding whether or not you should pursue business through one depends on how confident you are about running your business.&nbsp;</p>"
 ---
 <p>&ldquo;While incubators help companies stand and walk, accelerators teach companies to run.&rdquo;</p>

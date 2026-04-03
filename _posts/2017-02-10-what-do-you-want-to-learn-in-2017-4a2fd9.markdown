@@ -3,6 +3,7 @@ layout: post
 title:  "What do you want to learn in 2017"
 date:   "2017-02-10 15:00:14.361307"
 categories: blog
+tags: [team, learning]
 excerpt: "Based on the recent Hacker News post 'Ask HN: What do you want to learn in 2017?' we asked the entire team here at Vayu Technology to have a think about what they wanted to focus on in 2017. Here was what they came up with."
 ---
 <h2>Batsal</h2>

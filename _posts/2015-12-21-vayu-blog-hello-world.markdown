@@ -3,6 +3,7 @@ layout: post
 title:  "Vayu Blog - hello world"
 date:   2015-12-21 03:30:30 +0545
 categories: blog
+tags: [vayu, announcements]
 ---
 Hello world.
 

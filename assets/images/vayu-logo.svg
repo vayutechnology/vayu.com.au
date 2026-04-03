@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" fill="currentColor">
+  <!--
+    V Monogram: two overlapping V shapes sharing a bottom vertex.
+    Large V sits left, its right arm is shorter (ends ~25% height).
+    Small V overlaps from upper-right, both arms reach the top.
+    A triangular gap separates them.
+  -->
+
+  <!-- Large V -->
+  <polygon points="0,0 14,0 40,70 54,25 68,25 40,105"/>
+
+  <!-- Small V -->
+  <polygon points="64,0 74,0 54,58 82,0 95,0 40,105"/>
+
+  <!-- Divider -->
+  <line x1="116" y1="12" x2="116" y2="88" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Wordmark: VAYU in thin geometric uppercase -->
+  <!-- V -->
+  <path d="M140,18 L160,82 L164,82 L184,18 L179,18 L162,74 L145,18 Z"/>
+  <!-- A -->
+  <path d="M196,82 L214,18 L219,18 L237,82 L232,82 L227,66 L206,66 L201,82 Z M208,62 L225,62 L216.5,34 Z"/>
+  <!-- Y -->
+  <path d="M250,18 L265,50 L280,18 L275,18 L265,42 L255,18 Z M263,50 L267,50 L267,82 L263,82 Z"/>
+  <!-- U -->
+  <path d="M296,18 L296,66 Q296,82 310,82 Q324,82 324,66 L324,18 L320,18 L320,65 Q320,78 310,78 Q300,78 300,65 L300,18 Z"/>
+</svg>

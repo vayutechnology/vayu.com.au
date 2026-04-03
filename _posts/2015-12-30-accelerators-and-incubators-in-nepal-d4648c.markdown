@@ -4,6 +4,7 @@ title:  "Accelerators and incubators in Nepal"
 date:   "2015-12-30 10:17:34.094874"
 excerpt: "In recent years, new Nepali entrepreneurs have emerged. Although for these entrepreneurs, coming up with new business ideas might be easy; it can be quite difficult for them to develop those ideas into a profitable business.&nbsp; So, in order to nurture and guide these new entrepreneurs, startup accelerators and incubators have also emerged.&nbsp; These companies act as a platform for the new startups and provide them with opportunities allowing them to grow in the global marketplace."
 categories: blog
+tags: [startups, accelerators, nepal]
 ---
 In recent years, new Nepali entrepreneurs have emerged. Although for these entrepreneurs, coming up with new business ideas might be easy; it can be quite difficult for them to develop those ideas into a profitable business.&nbsp; So, in order to nurture and guide these new entrepreneurs, startup accelerators and incubators have also emerged.&nbsp; These companies act as a platform for the new startups and provide them with opportunities allowing them to grow in the global marketplace.
 
