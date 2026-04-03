@@ -18,7 +18,7 @@ layout: default
 
 <article class="post-body">
   <div class="content-container">
-    {{ content }}
+    {{ content | replace: '<img ', '<img loading="lazy" ' }}
   </div>
 
   <nav class="post-nav">
