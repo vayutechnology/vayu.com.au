@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 pagination:
   enabled: true
@@ -65,15 +66,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - cloudbuild.yaml
-  - config.ru
-  - Jenkinsfile
-  - Procfile
   - Rakefile
-  - static.json
-  - Dockerfile
-  - nginx.conf
   - .git
+  - netlify.toml
 collections:
   - posts
   - jobs
